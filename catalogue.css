@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Miniver&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.course-catalogue {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px; 
+    padding: 20px;
+  }
+  .content{
+    background-image: url(pexels-fotios-photos-1006293\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:  80px;
+    padding: 300px;
+  }
+  .t1{
+    font-family: "Edu Australia VIC WA NT Hand Arrows";
+    font-size: 70px;
+    color: black;
+    padding-bottom: 200px;
+  }
+  .p1{
+    color: white;
+    font-size: 40px;
+  }
+  .t2{
+    font-family: "Raleway ";
+ 
+    margin-left: 600px;
+    font-size: 40px;
+    color: rgb(0, 66, 21);
+    font-style: normal;
+  }
+  .catalogue{
+    background-image: url(pexels-fotios-photos-1006293\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1300px;
+  }
+  #prog{
+    height: auto;
+    width: 200px;
+    position: center;
+    margin: 40px;
+  }
+  #html{
+    height: auto;
+    width:200px;
+    position: center;
+    margin: 40px;
+  }
+  .cour{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:    150px; 
+    padding: 1px;
+    padding-top: 20px;
+    transition: transform 0.7s ease;
+}
+
+  .prog{
+    background: rgb(223, 226, 225);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+  }
+  .prog img{
+    height: 300px;
+    width: 300px;
+  }
+  button{
+    margin-top: 10px;
+    margin-left:10px;
+    background-color: rgb(5, 115, 65);
+    border-radius: 40%;
+    width: 100px;
+    height: 30px;
+    color: white;
+  }
+  .h3{
+    padding: 0px 40px;
+  }
+  .cour div:hover {
+    transform: translateY(-10px);
+  }

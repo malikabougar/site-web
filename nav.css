@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Miniver&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bona Nova", sans-serif;
+}
+.logo a{
+  color: rgb(0, 0, 0);
+  padding: 0px 20px;
+  position: absolute; 
+  top: 10px;
+  left: 10PX;
+  text-decoration: none;
+  font-weight: 900; 
+  text-shadow: 2px 2px rgba(63, 125, 119, 0.7); 
+  border-radius: 90%;
+}
+.logo span{
+  color: #116e5c;
+  font-family: "bona nova";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  float:right;
+  display:flex ;
+  margin-top: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: bold;
+  color: rgb(0, 0, 0);
+  padding: 10px 28px;
+  text-transform: uppercase; 
+  border: 1px solid rgb(0, 0, 0);
+  margin: 10px;
+  font-weight: 800;
+  border-radius: 23px;
+  transition: 0.6s ease;
+  border-color: #000000;
+}
+
+ul li a:hover{  
+  background: #01482d;
+  color: white;
+
+}
+ul li.active a{
+  background: white;
+  color: rgb(0, 0, 0) ;
+}
+
+.principale{
+  max-width: 114rem;
+  margin: 0 auto;
+}
